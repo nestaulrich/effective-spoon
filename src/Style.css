@@ -1,9 +1,18 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: purple;
+    color: #c92727;
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
-    color: brown;
+    color: blue;
 }
+
+a {
+    text-decoration: none;
+    color: #612f05;
+}
+
+a:hover {
+    color: black;
+}
+
