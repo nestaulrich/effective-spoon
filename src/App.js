@@ -1,9 +1,8 @@
 import React from 'react';
 
-// Class component: can have state
+// Class component
 class App extends React.Component {
-    render() {  //('element', props(properties), 'another element or a string representing our element content')
-        // return React.createElement('h1', null, 'Hello Eggheads')
+    render() {
         return (
             <div>
                 <h1 className="classIsAReservedKeyName">Hello World</h1>
@@ -13,7 +12,4 @@ class App extends React.Component {
     }
 }
 
-// Stateless function component
-// const App = () => <h1>Hello Greg</h1>
 export default App
-
